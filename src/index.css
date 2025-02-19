@@ -1,0 +1,24 @@
+/* ./src/index.css */
+@import "tailwindcss";
+@tailwind utilities;
+body, html {
+    @apply bg-gray-900 text-white;
+}
+
+@theme {
+    --colors: (
+        primary: #3490dc,
+        secondary: #ffed4a,
+        danger: #e3342f,
+    );
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    @apply bg-gray-800 p-4 py-2 text-white;
+}
+
+button {
+    @apply bg-blue-500 text-white p-4 py-2;
+}
