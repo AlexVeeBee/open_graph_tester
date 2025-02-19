@@ -1,6 +1,10 @@
-# Tauri + Vue + TypeScript
+# Open Graph Tester
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a small project to test open graph metadata
+
+## Why?
+
+it is kinda hard to test open graph data on services that cache the metadata ( for example: Discord, telegram and more )
 
 ## Recommended IDE Setup
 
